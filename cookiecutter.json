@@ -1,0 +1,13 @@
+{
+    "full_name": "Jonathan Suever",
+    "email": "suever@gmail.com",
+    "project_name": "MATLAB Plugin",
+    "github_username": "suever",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Cookiecutter to create a MATLAB plugin",
+    "plugin_name": "{{ cookiecutter.project_name.replace(' ', '') }}",
+    "menu_item": "Menu Item",
+    "year": "2017",
+    "version": "1.0.0",
+    "base_plugin": "plugins.BasePlugin"
+}

@@ -1,0 +1,9 @@
+{
+    "package": "{{ cookiecutter.repo_name }}",
+    "version": "{{ cookiecutter.version }}",
+    "description": "{{ cookiecutter.project_short_description }}",
+    "name": "{{ cookiecutter.menu_item }}",
+    "author": "{{ cookiecutter.full_name }}",
+    "email": "{{ cookiecutter.email }}",
+    "url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}"
+}
