@@ -1,5 +1,5 @@
 classdef {{ cookiecutter.plugin_name }} < {{ cookiecutter.base_plugin }}
-    % {{ cookiecutter.plugin_name }} - A DENSEanalysis plugin
+    % {{ cookiecutter.plugin_name }} - A MATLAB plugin
     %
     %   {{ cookiecutter.project_short_description }}
     %
@@ -16,9 +16,7 @@ classdef {{ cookiecutter.plugin_name }} < {{ cookiecutter.base_plugin }}
             %   {{ cookiecutter.plugin_name }}.validate(data)
             %
             % INPUTS:
-            %   data:   Object, DENSEdata object containing all underlying
-            %           data from the DENSEanalysis program.
-
+            %   data:   Object, Data object passed to the plugin
         end
 
         function run(self, data)
@@ -28,8 +26,7 @@ classdef {{ cookiecutter.plugin_name }} < {{ cookiecutter.base_plugin }}
             %   {{ cookiecutter.plugin_name }}.run(data)
             %
             % INPUTS:
-            %   data:   Object, DENSEdata object containing all underlying
-            %           data from the DENSEanalysis program.
+            %   data:   Object, Data object passed to the plugin
         end
     end
 end
